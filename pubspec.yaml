@@ -1,7 +1,9 @@
 name: tmdb_api_kit
 description: A comprehensive Dart package for interacting with The Movie Database (TMDB) API. Provides type-safe access to movies, TV shows, search functionality, and detailed media information.
 version: 1.0.0
-repository: https://github.com/my_org/my_repo
+repository: https://github.com/poypoy252525/tmdb_api
+homepage: https://github.com/poypoy252525/tmdb_api
+issue_tracker: https://github.com/poypoy252525/tmdb_api/issues
 
 environment:
   sdk: ^3.8.1

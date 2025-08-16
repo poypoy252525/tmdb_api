@@ -2,12 +2,12 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:http/http.dart';
-import 'package:tmdb_api/src/models/movie_details_model.dart';
-import 'package:tmdb_api/src/models/movie_summary_model.dart';
-import 'package:tmdb_api/src/models/popular_movie_response.dart';
-import 'package:tmdb_api/src/models/tv_show_summary_model.dart';
-import 'package:tmdb_api/src/models/tv_show_details_model.dart';
-import 'package:tmdb_api/src/tmdb_api_base.dart';
+import 'models/movie_details_model.dart';
+import 'models/movie_summary_model.dart';
+import 'models/popular_movie_response.dart';
+import 'models/tv_show_summary_model.dart';
+import 'models/tv_show_details_model.dart';
+import 'tmdb_api_base.dart';
 
 class Tmdb {
   // HTTP and config

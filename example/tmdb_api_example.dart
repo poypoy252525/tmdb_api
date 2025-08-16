@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:tmdb_api/tmdb_api.dart';
+import 'package:tmdb_api_kit/tmdb_api_kit.dart';
 
 Future<void> main() async {
   final token = Platform.environment['TMDB_BEARER_TOKEN'];

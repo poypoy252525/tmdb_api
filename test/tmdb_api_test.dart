@@ -1,4 +1,4 @@
-import 'package:tmdb_api/tmdb_api.dart';
+import 'package:tmdb_api_kit/tmdb_api_kit.dart';
 import 'package:test/test.dart';
 import 'dart:io';
 

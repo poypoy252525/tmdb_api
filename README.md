@@ -18,7 +18,7 @@ Add this package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  tmdb_api: ^1.0.0
+  tmdb_api_kit: ^1.0.0
 ```
 
 Then run:
@@ -52,7 +52,7 @@ set TMDB_BEARER_TOKEN=your_bearer_token_here
 
 ```dart
 import 'dart:io';
-import 'package:tmdb_api/tmdb_api.dart';
+import 'package:tmdb_api_kit/tmdb_api_kit.dart';
 
 Future<void> main() async {
   // Get token from environment variable
