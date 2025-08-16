@@ -1,9 +1,6 @@
-/// Support for doing something awesome.
+/// Deprecated entry point.
 ///
-/// More dartdocs go here.
-library;
+/// Use `package:tmdb_api_kit/tmdb_api_kit.dart` instead.
+library tmdb_api_kit;
 
-export 'src/tmdb_api_base.dart';
-export 'src/tmdb.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'tmdb_api_kit.dart';
