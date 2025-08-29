@@ -1,4 +1,9 @@
-// TODO: Put public facing types in this file.
+export 'models/movie_details_model.dart';
+export 'models/movie_summary_model.dart';
+export 'models/popular_movie_response.dart';
+export 'models/tv_show_summary_model.dart';
+// TODO: Remove the duplicates instead of hiding them
+export 'models/tv_show_details_model.dart' hide Genre, ProductionCountry, SpokenLanguage;
 
 /// Exception thrown for TMDB API request failures.
 class TmdbException implements Exception {
